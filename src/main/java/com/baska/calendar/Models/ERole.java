@@ -1,12 +1,11 @@
 package com.baska.calendar.Models;
 
-public enum State {
-    ENABLED,
-    DELETED;
+public enum ERole {
+    ROLE_USER;
 
     private String name;
 
-    State() {
+    ERole() {
         name = this.toString();
     }
 

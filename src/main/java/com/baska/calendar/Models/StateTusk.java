@@ -1,13 +1,12 @@
 package com.baska.calendar.Models;
 
-public enum Operation {
-    CREATE,
-    UPDATE,
-    DELETE;
+public enum StateTusk {
+    INWORK,
+    CLOSED;
 
     private String name;
 
-    Operation() {
+    StateTusk() {
         name = this.toString();
     }
 

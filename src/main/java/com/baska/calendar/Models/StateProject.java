@@ -1,17 +1,17 @@
 package com.baska.calendar.Models;
 
-public enum Object {
-
-    PROJECT,
-    TUSK;
+public enum StateProject {
+    INWORK,
+    CLOSED;
 
     private String name;
 
-    Object() {
+    StateProject() {
         name = this.toString();
     }
 
     public String getName() {
         return name;
     }
+
 }
